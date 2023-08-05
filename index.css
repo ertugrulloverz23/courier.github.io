@@ -1,0 +1,403 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main
+{
+    background: rgba(0, 0, 0,0.7)url('bg0.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 90vh;
+    width: 100%;
+    background-blend-mode: darken;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.s_mn 
+{
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+}
+.search 
+{
+    width: 100%;
+    max-width: 700px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+}
+.search input
+{
+    outline: none;
+    border: none;
+    padding: 24px 20px;
+    flex: 1;
+    background: transparent;
+}
+::placeholder
+{
+    color: rgb(255, 196, 0);
+}
+.search button
+{
+    border: 0;
+    border-radius: 50%;
+    background: rgb(255, 196, 0);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.search button i 
+{
+    font-size: 20px;
+}
+#btn button{
+    margin-left:8px ;
+}
+.text
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+
+}
+.logo
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 40px;
+}
+.logo span
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.img{
+    margin: 55px;
+    float: left;
+    border: 1.5px solid #999;
+    border-radius: 5px ;
+    background-color: #999;
+
+}
+.img img
+{
+    height: 60%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    border-radius: 6px;
+    padding: 10px;
+}
+.img h2 
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.img p 
+{
+    padding: 10px;
+}
+#act
+{
+    color:  #242424!important;
+    border-bottom: 2px solid #242424;
+}
+.head_a
+{
+    padding: 80px;
+}
+.head_a h2
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: white !important;
+}
+.head_a h5{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 17px !important;
+    color: #999;
+
+}
+.form{
+    width: 100%;
+    max-width: 80%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px) ;
+}
+.form-a
+{
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    background: lightyellow;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-a input 
+{
+    outline: none;
+    border:none;
+    margin: 10px;
+    margin-left: 10%;
+    height: 40px;
+    width: 250px;
+    background:none;
+    border-bottom: 1px solid #242424;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.form-a input[type=text]
+{
+    padding: 10px;
+    color: rgb(255, 196, 0);
+} 
+.form-a input[type=email]
+{
+    padding: 10px;
+    color: rgb(255, 196, 0);
+} 
+.form-a input[type=number]
+{
+    padding: 10px;
+    color: rgb(255, 196, 0);
+} 
+.form-a select
+{
+    width: 250px;
+    height: 40px;
+    background:rgb(255, 196, 0);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+    padding: 10px;
+
+}
+.form-a select option
+{
+    background: white;
+    padding: 10px;
+}
+.form-a .btn
+{
+    width: 590px;
+    height: 40px;
+    background:rgb(255, 196, 0);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+    padding: 10px;
+}
+.form-a p 
+{
+    padding-left: 80px;
+    font-weight: bold;
+}
+.form-a textarea
+{
+    width: 590px;
+    height: 100px;
+    border: 1px solid #242424;
+    padding: 10px;  
+    margin-left: 10%;
+    border-radius: 4px;
+
+}
+.form-b
+{
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    background: lightyellow;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-b input 
+{
+    outline: none;
+    border:none;
+    margin: 10px;
+    margin-left: 10%;
+    height: 40px;
+    width: 250px;
+    background:none;
+    border-bottom: 1px solid #242424;
+    padding: 10px;
+    font-size: 15px;
+}
+.form-b input[type=email]
+{
+    padding: 10px;
+    color: rgb(255, 196, 0);
+}
+.form-b input[type=text]
+{
+    padding: 10px;
+    color: rgb(255, 196, 0);
+} 
+.form-b p
+{
+    font-size: 15px;
+    margin-left: 33px;    
+} 
+.form-b .btn
+{
+    width: 250px;
+    height: 40px;
+    background:rgb(255, 196, 0);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.form-a .date
+{
+    display: none;
+}
+
+.sidebar
+{
+    height: 100vh;
+    width: 250px;
+    background: #7D7463;
+    position: fixed;
+    background-position-x: left;
+}
+.minhead
+{
+    width: 100%;
+    height: 60px;
+    background: rgb(255, 196, 0);
+}
+.sidebar h2
+{
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: white;
+    font-size: 40px;
+    border-bottom: 1px solid #2C3333;
+    padding: 10px;
+    text-align: center;
+
+}
+.minitem
+{
+    list-style: none;
+    display: contents;
+}
+.minitem li{
+    padding: 15px;
+    cursor: pointer;
+}
+.minitem li a{
+    text-decoration: none;
+    color: aliceblue ;
+    text-align: left;
+    padding-left:5px ;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+}
+.minitem li a:hover
+{
+    /* background: rgb(255, 196, 0); */
+    color: rgb(255, 196, 0);
+    
+}
+.minitem .submin
+{
+    list-style: none;
+   background: #999;
+   display: none;
+   width: 210px;
+   text-align: left;
+   margin-left: 25px;
+    border-bottom: 1px solid rgb(255, 196, 0);
+}
+
+ .minitem li:hover .submin{
+    display: block;
+    transition: all 5ms;
+}
+.minitem li:hover
+{
+    transition: all 1s;
+}
+
+
+/* RESPONSIVE */
+@media (min-width:400px) and (max-width:990px) 
+{
+    .sidebar
+    {
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+    .main{
+        width: 100%;
+        height: 400px;
+    }
+    .img{
+    
+    }
+    .img button
+    {
+        margin: 10px;
+    }
+    iframe
+    {
+        width: 100%;
+        height: 250px;
+    }
+    .head_a 
+    {
+        padding: 20px;
+    }
+    .form-a 
+    {
+        width: 100%;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-a .btn
+    {
+        width: 100%;
+        max-width: 300px;
+    }
+    .form-a input
+    {
+        width: 125px;
+
+    }
+    .form-a select{
+        width: 125px;
+    }
+    .form-a textarea
+    {
+        width: 300px;
+    }
+    .form-a #kg
+    {
+        width: 125px;
+    }
+    .form-a p 
+    {
+        padding-left: 20px;
+    }
+    .s_mn
+    {
+        max-width: none;
+    }
+}
